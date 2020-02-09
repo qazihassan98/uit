@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1250px;
+	margin: 0 auto;
+	border: #000 1px solid;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.header{
+	border-top: #0550a4 4px solid;
+}
+
+/*.logo{
+	float: left;
+}
+.smedia{
+	float: right;
+}*/
+
+
+
+/*.apply{
+	background-color: #0550a4;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	text-decoration: none;
+}*/
+.smedia img{
+	border-right: 1px solid #000;
+}

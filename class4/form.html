@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My First HTML Registration Form</title>
+	</head>
+	<body>
+
+		<h1>Registration Form</h1>
+		<form action="form.html" method="post" enctype="multipart/form-data">
+			<table border="1" cellspacing="0" cellpadding="10">
+				<tr>
+					<th>Name</th>
+					<td><input type="text" name="txtname" placeholder="Type your name"> </td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="email" name="txtemail"></td>
+				</tr>
+
+				<tr>
+					<th>Password</th>
+					<td><input type="password" name="txtpassword"></td>
+				</tr>
+
+				<tr>
+					<th>Gender</th>
+					<td>
+						<input type="radio" name="txtgender" value="Male">Male
+						<input type="radio" name="txtgender" value="Female">Female
+					</td>
+				</tr>
+
+				<tr>
+					<th>Skills</th>
+					<td>
+						<input type="checkbox" name="txtskills" value="HTML">HTML
+						<input type="checkbox" name="txtskills" value="CSS">CSS
+						<input type="checkbox" name="txtskills" value="JavaScript">JavaScript
+					</td>
+				</tr>
+
+				<tr>
+					<th>Upload Image</th>
+					<td>
+						<input type="file" name="txtfile">
+					</td>
+				</tr>
+
+				<tr>
+					<th>Date of birth</th>
+					<td>
+						<input type="date" name="txt_dob">
+					</td>
+				</tr>
+
+				<tr>
+					<th>Favorite Color</th>
+					<td>
+						<input type="color" name="txt_color">
+					</td>
+				</tr>
+
+				<tr>
+					<th>Country</th>
+					<td>
+						<select name="text_country">
+							<option value="">Select Here...</option>
+							<option value="USA">United States of America</option>
+							<option value="UK">United Kingdom</option>
+							<option value="CA">Canada</option>
+							<option value="KSA">Saudi Arabia</option>
+							<option value="PK">Pakistan</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<th>Address</th>
+					<td>
+						<textarea cols="60" rows="3" name="text_addr" placeholder="Address"></textarea>
+					</td>
+				</tr>
+
+
+
+
+				<tr>
+
+					<td></td>
+					<td>
+						<input type="reset" name="tbtn" value="Reset Form">
+						<input type="submit" name="btn" value="Register">
+					</td>
+
+				</tr>
+
+
+			</table>
+			
+		</form>
+
+	</body>
+</html>
